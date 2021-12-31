@@ -1,20 +1,3 @@
-// AFRAME.registerComponent("scuba-diver-rotation-reader", {
-//   init: function () {
-//     window.addEventListener("keydown", (e) => {
-//       let rotation = this.el.getAttribute("rotation");
-//       let position = this.el.getAttribute("position");
-//       if (e.key == "ArrowUp") {
-//         if (rotation.z < 20) {
-//           // position.z -= 0.1;
-//           rotation.z -= 0.1;
-//         }
-//       }
-//       this.el.setAttribute("position", position);
-//       this.el.setAttribute("rotation", rotation);
-//     });
-//   },
-// });
-
 AFRAME.registerComponent("scuba-diver-rotation-reader", {
   schema: {
     speedOfRotation: {
